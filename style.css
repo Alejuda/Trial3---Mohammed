@@ -1,59 +1,80 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    background-color: rgb(204, 202, 152);
+body {
+  background-color: rgb(204, 202, 152);
 }
 
-.nav_bar{
-    height: 90px;
-    width: 100vw;
-    background-color: rgb(204, 202, 152);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 10px;
+.nav_bar {
+  height: 90px;
+  width: 100vw;
+  background-color: rgb(204, 202, 152);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px;
 }
 
-.nav_list{
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
+.nav_list {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav_link{
-    list-style: none;
-    padding-left:30px ;
+.nav_link {
+  list-style: none;
+  padding-left: 30px;
 }
-.nav_link a{
-    text-decoration: none;
-    color: black;
-}
-
-.input_container{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-    
+.nav_link a {
+  text-decoration: none;
+  color: black;
 }
 
-.input{
-    margin: 30px;
-    padding: 5px;
-    width: 400px;
+.input_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
 }
 
-.button{
-    padding: 5px;
-    width: 200px;
-    background-color: rgb(223, 157, 81);
+.input {
+  margin: 30px;
+  padding: 5px;
+  width: 400px;
 }
 
+.button {
+  padding: 5px;
+  width: 200px;
+  background-color: rgb(223, 157, 81);
+}
+#materials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#materials img {
+  width: 40px;
+  height: 40px;
+  margin-right: 35px;
+}
+.material {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.video {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
