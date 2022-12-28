@@ -78,3 +78,72 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+#contents{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+}
+
+.content{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+
+}
+
+.bg-gray{
+    background-color: grey;
+    width: 100%;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.price{
+    margin: 0.9rem;
+}
+.btn-buy{
+    margin: 0.9rem;
+    padding: 5px 40px;
+    background-color: rgb(164, 123, 58);
+    border: none;
+    cursor: pointer;
+}
+    
+footer{
+    height: 100px;
+    width: 100vw;
+    background-color: grey;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.list_container{
+    align-self: center;
+
+    
+}
+
+.list{
+    display: flex;
+    list-style: none;
+
+}
+.list_item{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.list_container > p{
+    color: rgb(57, 57, 57);
+    font-size: 14px;
+}
+
